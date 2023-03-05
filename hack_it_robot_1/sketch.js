@@ -60,4 +60,18 @@ function draw()
 	vertex(325, 380);
 	endShape();
 
+	//robots body
+	fill(170, 227, 226);
+	rect(100, 420, 300, 250, 50);
+
+	//robots leg right
+	fill(255, 206, 254);
+rect(130, 680, 40, 150);
+
+	//robots legs left
+	fill(255, 206, 254);
+	rect(320, 680, 40, 150);
+		
+	
+
 }
