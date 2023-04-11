@@ -1,0 +1,11 @@
+DOM Manipulation with Dice Game
+This simple code generates random dice rolls and displays the results as images on a web page. It also uses DOM manipulation to update the page's heading with a message that declares the winner based on the results of the rolls.
+
+How it works
+The code uses the Math.floor function and the random function to generate two random numbers between 1 and 6, which simulate rolling two dice. It then uses these numbers to construct the file names for two dice images, which are stored in the images directory.
+
+The code then creates two variables that store the complete file paths for the randomly selected dice images. It then uses document.querySelectorAll() method to select the two img elements in the HTML, and the setAttribute() method to change the src attribute of each img element to the randomly selected dice image.
+
+Finally, the code uses conditional statements to determine the winner of the game based on which player rolled the higher number, and updates the heading of the page using the innerHTML property of the h1 element selected using document.querySelector().
+
+This code demonstrates how to use DOM manipulation to update the content of a web page dynamically.
